@@ -28,13 +28,32 @@ header .logo {
 main {
     padding: 20px;
 }
-.name{ background: white
 
-
-}
-
-.nametag{background: red;
+#nametag {
     width: 400px;
-    text-align: center;
+    padding-bottom: 10px 
 
+     background: red;
+     color: white;
+    text-align: center;
 }
+
+.greeting {
+    padding-top: 10px;
+    margin: 0;
+
+    font-weight: bolder;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.name {
+    padding: 15px 0;
+
+    background: white;
+    color:black;
+    font-family: cursive;
+    font-size: 2em;
+}
+    
+

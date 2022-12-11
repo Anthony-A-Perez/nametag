@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 
-    <script type="module" src="app.js"></script>
+     <script type="module" src="app.js"></script>
 
-    <!-- put css fonts here -->
+    
 
     <link rel="stylesheet" href="style.css" />
 
@@ -17,21 +17,29 @@
 </head>
 
 <body>
-    <header>
+    <header style="background-color: purple">
         <h1>My Project</h1>
     </header>
 
     <main>
-<P> Name 
-    <input>
-    <button>Update</button>
+        <P> 
+            Name 
+            <input id="name-input" />
+            <input type="color" name="color-input" id="color-input" />
+            <button id="update-button">Update</button>
+
+            </P>
 </P>
 
-<div class="nametag"> 
+    
+
+<div id="nametag">
+
+  
     
     <p class="greeting">Hello</p>
-    <p>My name is</p>
-    <p class="name">SlimShady</p>
+    <p>my name is</p>
+    <p id="name-display" class="name">SlimShady</p>
 </div>
     </main>
 
