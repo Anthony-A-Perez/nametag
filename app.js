@@ -1,6 +1,6 @@
-// grab DOM elements
 
-// set event listeners
+
+
 const booger = document.getElementById('nametag');
 const nameDisplay = document.getElementById('name-display');
 const nameInput = document.getElementById('name-input');
@@ -12,4 +12,8 @@ button.addEventListener('click'), () => {
         nameDisplay.textContent = nameInput.value;
         nameDisplay.style.color = 'red';
         booger.style.backgroundColor = colorInput.value;
+});
+
+nameInput.addEventListeners('keyup', () => {
+    nameDisplay.textContent = nameInput.value;
 });
